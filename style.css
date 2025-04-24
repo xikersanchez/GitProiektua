@@ -1,11 +1,10 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -13,9 +12,8 @@
     line-height: 1.6;
   }
   
-  /* Header */
   header {
-    background-color: #4CAF50; /* Color verde */
+    background-color: #4CAF50; 
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -25,15 +23,13 @@
     font-size: 2.5rem;
   }
   
-  /* Main */
   main {
     padding: 20px;
     text-align: center;
   }
   
-  /* Estilo del botón */
   button {
-    background-color: #007BFF; /* Azul */
+    background-color: #007BFF; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -44,20 +40,18 @@
   }
   
   button:hover {
-    background-color: #0056b3; /* Azul oscuro en hover */
+    background-color: #0056b3; 
   }
   
-  /* Estilo para el mensaje dentro del div */
   #messageContainer {
     margin-top: 20px;
     padding: 20px;
-    background-color: #fffae6; /* Fondo suave */
+    background-color: #fffae6; 
     border: 1px solid #e0d0a3;
     border-radius: 5px;
-    display: none; /* Inicialmente oculto */
+    display: none;
   }
   
-  /* Footer */
   footer {
     background-color: #333;
     color: white;
@@ -70,7 +64,6 @@
     font-size: 0.9rem;
   }
   
-  /* Diseño responsive */
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
